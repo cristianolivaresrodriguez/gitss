@@ -1,0 +1,41 @@
+archivo inicial
+
+Configuración inicial
+
+
+
+Git init (para iniciar el repositorio)
+
+git status(para ver el status de los archivos)
+
+git add (para agregar el archivo a lo que se va a hacer commit)
+
+git rm --cached hola2.txt (para sacar un archivo que se le hizo add)(reversa del add)
+
+git restore hola2.txt (si se le hizo un cambio a un archivo y se quiere restaurar a una version anterior) (puedes usar add para agregarlo)
+
+git commit -m "se actualizo el archivo 2" (para hacer el commit y mandar un mensaje de lo que se trata el commit)
+
+git diff (para ver los cambios en los archivos)
+
+git log (para ver los commits que se han echo en el proyecto)
+
+git log —oneline (para ver los commits que se han echo en el proyecto pero resumido)
+
+git branch (para saber en que rama estamos)
+
+git checkout -b nombrerama (para crear rama nueva y cambiarse a ella )
+
+git checkout nombrerama (para cambiarse de rama)
+
+git merge nombrerama (para juntar las versiones de diferentes ramas)
+
+git rm nombredelarchivo (para borrar un archivo)
+
+git remote add origin  https://github.com/cristianolivaresrodriguez/cursogit2.git
+
+git push origin main
+
+git pull
+
+git branch -u origin main (por si da error alñ hacer el primer pull)
