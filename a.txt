@@ -38,4 +38,4 @@ git push origin main
 
 git pull
 
-git branch -u origin main (por si da error alñ hacer el primer pull)
+git pull -u origin main (por si da error al hacer el primer pull)
